@@ -1,11 +1,12 @@
 Feature: Novi feature
 
+  @validate
   Scenario: task1
     Given User opens live-program page
     And User filter with "Ποδόσφαιρο" filter
     And User closes the live-program browser
 
-
+  @validate
   Scenario: task2345
     Given User opens live-program page
     And User opens stoixima-live page

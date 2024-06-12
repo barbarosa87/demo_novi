@@ -8,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/main/resources/demo",
-        glue = {"com.example.demo.steps"}
+        glue = {"com.example.demo.steps"},
+		tags = "@validate"
 )
 public class DemoApplicationTests {
 }
